@@ -1,28 +1,74 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "shylog",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "수줍은 개발자 동그래, 동글동글 잘 굴러가는 웹 개발 중",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Donggeun Lee <eastroots92@gmail.com>",
   "dependencies": {
-    "gatsby": "^2.19.7",
-    "gatsby-image": "^2.2.39",
-    "gatsby-plugin-manifest": "^2.2.39",
-    "gatsby-plugin-offline": "^3.0.32",
-    "gatsby-plugin-react-helmet": "^3.1.21",
-    "gatsby-plugin-sharp": "^2.4.3",
-    "gatsby-source-filesystem": "^2.1.46",
-    "gatsby-transformer-sharp": "^2.3.13",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "axios": "^0.18.0",
+    "babel-plugin-styled-components": "^1.10.0",
+    "disqus-react": "^1.0.5",
+    "dotenv": "^8.0.0",
+    "formik": "^1.5.7",
+    "gatsby": "^2.3.16",
+    "gatsby-image": "^2.0.37",
+    "gatsby-plugin-feed": "^2.1.0",
+    "gatsby-plugin-google-analytics": "^2.0.18",
+    "gatsby-plugin-lodash": "^3.0.5",
+    "gatsby-plugin-manifest": "^2.0.28",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.2",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.0.32",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-plugin-typescript": "^2.0.12",
+    "gatsby-remark-copy-linked-files": "^2.0.11",
+    "gatsby-remark-images": "^2.0.6",
+    "gatsby-remark-katex": "^3.0.4",
+    "gatsby-remark-mermaid": "^1.0.0",
+    "gatsby-remark-prismjs": "^3.2.8",
+    "gatsby-remark-responsive-iframe": "^2.1.1",
+    "gatsby-remark-smartypants": "^2.0.9",
+    "gatsby-source-filesystem": "^2.0.29",
+    "gatsby-transformer-remark": "^2.3.8",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "js-search": "^1.4.2",
+    "katex": "^0.10.2",
+    "lodash": "^4.17.11",
+    "prismjs": "^1.16.0",
+    "rc-drawer": "^1.8.1",
+    "react": "^16.8.6",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.0",
+    "react-icons": "^3.5.0",
+    "react-scroll-up": "^1.3.3",
+    "react-share": "^3.0.0",
+    "react-stickynode": "^2.1.1",
+    "react-typography": "^0.16.19",
+    "styled-components": "^4.2.0",
+    "styled-system": "^4.1.0",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.54",
+    "typography": "^0.16.19",
+    "url-join": "^4.0.1",
+    "yup": "^0.27.0"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "@hot-loader/react-dom": "^16.8.6",
+    "@types/react": "^16.4.16",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-helmet": "^5.0.8",
+    "@types/react-share": "^2.1.1",
+    "@types/styled-components": "^4.1.11",
+    "@types/styled-system": "^4.1.0",
+    "@types/lodash": "^4.14.130",
+    "@types/yup": "^0.26.13",
+    "@types/js-search": "^1.4.0",
+    "prettier": "^1.17.0"
   },
   "keywords": [
-    "gatsby"
+    "shylog", "React", "blog", "donggeun", "banksalad", "frontend"
   ],
   "license": "MIT",
   "scripts": {
@@ -36,9 +82,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/eastroots92/shylog"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/eastroots92/shylog/issues"
   }
 }
