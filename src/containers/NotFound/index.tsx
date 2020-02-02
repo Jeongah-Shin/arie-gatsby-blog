@@ -44,7 +44,7 @@ const NotFound: React.FunctionComponent<NotFoundProps> = props => {
             <Icon>
               <IoMdArrowRoundBack />
             </Icon>
-            Go Back
+            뒤로가기
           </Link>
         </Goback>
       </NotFoundContent>

@@ -30,7 +30,7 @@ export const IntroImage = styled.div`
   padding: 30px;
   border-radius: 50%;
   margin: 0 auto;
-  border: 1px solid ${themeGet("colors.lightBorderColor", "#ededed")};
+  border: 1px solid ${themeGet("colors.lightBorderColor", "#ffffff")};
   flex-shrink: 0;
   @media (max-width: 990px) {
     width: 220px;

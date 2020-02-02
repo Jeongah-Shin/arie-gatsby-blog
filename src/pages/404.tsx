@@ -13,10 +13,6 @@ const NotFoundPage = (props: any) => {
       <Navbar />
       <SEO title="404: Not Found" />
       <NotFound />
-      <Footer>
-        Copyright &copy; {new Date().getFullYear()}
-        <a href="https://redq.io/"> RedQ, Inc.</a>
-      </Footer>
     </>
   )
 }

@@ -39,7 +39,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s | shylog`}
       meta={[
         {
           name: `description`,
@@ -90,8 +90,8 @@ const SEO: React.FunctionComponent<SEOProps> = ({
 SEO.defaultProps = {
   lang: `ko`,
   meta: [],
-  keywords: [],
-  description: ``,
+  keywords: ['shylog', 'frontend', 'eastroots', 'eastroots92', 'react', '이동근', 'develop', 'web', 'javascript', 'typescript'],
+  description: `수줍은 개발자 동그래의 블로그 입니다.`,
 }
 
 export default SEO

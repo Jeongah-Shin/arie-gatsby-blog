@@ -7,7 +7,7 @@ module.exports = {
     title: `shylog`,
     author: `동그래`,
     about: `기획에 한계를 주지 않는 개발자 입니다. 현재는 동글동글 잘 굴러가는 웹 프론트를 만들고 있습니다.`,
-    description: `수줍은 개발자 동그래, 동글동글 잘 굴러가는 웹 개발 중`,
+    description: `수줍은 개발자 동그래의 개발 블로그입니다.`,
     siteUrl: `https://storyhub-minimal-tarex.redq.now.sh`,
   },
   plugins: [

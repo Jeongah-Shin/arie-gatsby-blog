@@ -11,34 +11,35 @@ import {
 } from "./style"
 import {
   IoLogoFacebook,
-  IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
+  IoLogoLinkedin,
 } from "react-icons/io"
 
 type IntroProps = {}
 
 const SocialLinks = [
   {
-    icon: <IoLogoFacebook />,
-    url: "#",
-    tooltip: "Facebook",
+    icon: <IoLogoGithub />,
+    url: "https://github.com/eastroots92",
+    tooltip: "Github",
+  },
+  {
+    icon: <IoLogoLinkedin />,
+    url: "https://www.linkedin.com/in/donggeun-lee-568916160/",
+    tooltip: "Linkedin",
   },
   {
     icon: <IoLogoInstagram />,
-    url: "#",
+    url: "https://www.instagram.com/eastroots92/",
     tooltip: "Instagram",
   },
   {
-    icon: <IoLogoTwitter />,
-    url: "#",
-    tooltip: "Twitter",
+    icon: <IoLogoFacebook />,
+    url: "https://www.facebook.com/guregure13",
+    tooltip: "Facebook",
   },
-  {
-    icon: <IoLogoGithub />,
-    url: "#",
-    tooltip: "Github",
-  },
+
 ]
 
 const Intro: React.FunctionComponent<IntroProps> = () => {
@@ -60,7 +61,7 @@ const Intro: React.FunctionComponent<IntroProps> = () => {
     }
   `)
 
-  const { author, about } = Data.site.siteMetadata
+  const { author } = Data.site.siteMetadata
   const AuthorImage = Data.avatar.childImageSharp.fluid
 
   return (
