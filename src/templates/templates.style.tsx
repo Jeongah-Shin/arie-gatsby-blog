@@ -205,7 +205,7 @@ export const TagPageHeading = styled.div`
 export const TagName = styled.h1`
   font-size: 30px;
   font-weight: 700;
-  color: ${themeGet("colors.primary", "#D10068")};
+  color: ${themeGet("colors.primary", "#ff176a")};
   margin-bottom: 8px;
   @media (max-width: 990px) {
     font-size: 26px;
@@ -264,7 +264,7 @@ export const PostShare = styled.div`
       margin-left: 20px;
     }
     &:hover {
-      color: ${themeGet("colors.primary", "#D10068")};
+      color: ${themeGet("colors.primary", "#ff176a")};
     }
     svg {
       display: block;
@@ -303,7 +303,7 @@ export const PostTags = styled.div`
     margin-right: 30px;
     font-size: 14px;
     font-weight: 400;
-    color: ${themeGet("primary", "#D10068")};
+    color: ${themeGet("primary", "#ff176a")};
     @media (max-width: 990px) {
       font-size: 13px;
       margin-right: 25px;

@@ -9,8 +9,8 @@ const colors = {
   inactiveBG: "#e6e6e6", // 7
   borderColor: "#DBDBDB", // 8
   lightBorderColor: "#ededed", //9
-  primary: "#D10068", // 10
-  primaryHover: "#D10068", // 11
+  primary: "#ff176a", // 10
+  primaryHover: "#ff176a", // 11
 }
 
 export default colors
