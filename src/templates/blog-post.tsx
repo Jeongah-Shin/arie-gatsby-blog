@@ -10,14 +10,10 @@ import PostDetails from "../components/PostDetails/postDetails"
 import {
   FacebookShareButton,
   TwitterShareButton,
-  PinterestShareButton,
-  RedditShareButton,
 } from "react-share"
 import {
   IoLogoFacebook,
   IoLogoTwitter,
-  IoLogoPinterest,
-  IoLogoReddit,
 } from "react-icons/io"
 import {
   BlogPostDetailsWrapper,

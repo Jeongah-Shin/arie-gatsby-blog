@@ -2,8 +2,10 @@
 title: Polyfill 적용 방법에 대한 고민
 date: '2020-02-02'
 tags: ['polyfill', 'babel', 'javascript']
+description: ''
 cover: './preview.jpg'
 ---
+
 # 폴리필(Polyfill) 적용 방식에 대한 고민
 
 폴리필을 어떤 식으로 적용하는 게 효율적일지 몇 가지 방식을 고민해보았다.
