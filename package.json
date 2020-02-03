@@ -13,7 +13,7 @@
     "gatsby": "^2.3.16",
     "gatsby-image": "^2.0.37",
     "gatsby-plugin-feed": "^2.1.0",
-    "gatsby-plugin-google-analytics": "^2.0.18",
+    "gatsby-plugin-google-analytics": "^2.1.35",
     "gatsby-plugin-lodash": "^3.0.5",
     "gatsby-plugin-manifest": "^2.0.28",
     "gatsby-plugin-offline": "^2.0.25",
@@ -56,19 +56,24 @@
   },
   "devDependencies": {
     "@hot-loader/react-dom": "^16.8.6",
+    "@types/js-search": "^1.4.0",
+    "@types/lodash": "^4.14.130",
     "@types/react": "^16.4.16",
     "@types/react-dom": "^16.0.11",
     "@types/react-helmet": "^5.0.8",
     "@types/react-share": "^2.1.1",
     "@types/styled-components": "^4.1.11",
     "@types/styled-system": "^4.1.0",
-    "@types/lodash": "^4.14.130",
     "@types/yup": "^0.26.13",
-    "@types/js-search": "^1.4.0",
     "prettier": "^1.17.0"
   },
   "keywords": [
-    "shylog", "React", "blog", "donggeun", "banksalad", "frontend"
+    "shylog",
+    "React",
+    "blog",
+    "donggeun",
+    "banksalad",
+    "frontend"
   ],
   "license": "MIT",
   "scripts": {
