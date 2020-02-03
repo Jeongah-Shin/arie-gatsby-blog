@@ -54,6 +54,10 @@ const SEO: React.FunctionComponent<SEOProps> = ({
           content: metaDescription,
         },
         {
+          property: `og:image`,
+          content: "https://user-images.githubusercontent.com/26288794/73645628-ffeffa00-46ba-11ea-9b84-a2f2400c5afb.png",
+        },
+        {
           property: `og:type`,
           content: `website`,
         },
