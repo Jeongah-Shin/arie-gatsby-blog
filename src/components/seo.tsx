@@ -47,7 +47,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         },
         {
           property: `og:title`,
-          content: title,
+          content: `${title} | shylog`,
         },
         {
           property: `og:description`,
@@ -71,7 +71,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: `${title} | shylog`,
         },
         {
           name: `twitter:description`,
