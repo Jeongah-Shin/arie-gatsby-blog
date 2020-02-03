@@ -14,6 +14,7 @@ import {
   AboutDetails,
   SocialProfiles,
 } from "./style"
+import { Desciption } from "../HomePage/Intro/style"
 
 const SocialLinks = [
   {
@@ -64,7 +65,8 @@ const About: React.FunctionComponent<AboutProps> = props => {
       <AboutPageTitle>
         <h2>🙌, 동그래입니다.</h2>
         <p>
-          기획에 한계를 주지 않는 개발자 이동근입니다. 기획에 세세한 부분을 사용자 관점에서 세세하게 채워나가는 것을 좋아합니다. 주어진 환경에서 가장 최상의 퍼포먼스와 임팩트를 주기 위해 고하고 있습니다.
+          기획에 한계를 주지 않는 개발자 이동근입니다. 기획에 세세한 부분을 사용자 관점에서 채워나가는 것을 좋아합니다.
+          주어진 환경에서 가장 최상의 퍼포먼스와 임팩트를 주기 위해 최선을 다하고 있습니다.
           <br />
           지금은 동글동글 잘 굴러가는 웹 프론트 개발을 하고 있습니다. 🌝
         </p>

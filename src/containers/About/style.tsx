@@ -13,6 +13,7 @@ export const AboutWrapper = styled.div`
 `
 
 export const AboutPageTitle = styled.div`
+  word-break: keep-all;
   margin-bottom: 45px;
   @media (max-width: 767px) {
     margin-bottom: 30px;
