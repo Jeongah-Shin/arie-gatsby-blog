@@ -39,7 +39,6 @@ const SocialLinks = [
     url: "https://www.facebook.com/guregure13",
     tooltip: "Facebook",
   },
-
 ]
 
 const Intro: React.FunctionComponent<IntroProps> = () => {

@@ -59,7 +59,7 @@ const BlogPostTemplate = (props: any) => {
               : post.frontmatter.cover.childImageSharp.fluid
           }
           description={post.html}
-          imagePosition="left"
+          imagePosition="top"
         />
 
         <BlogPostFooter
@@ -82,18 +82,6 @@ const BlogPostTemplate = (props: any) => {
             <TwitterShareButton url={shareUrl} title={title}>
               <IoLogoTwitter />
             </TwitterShareButton>
-            <PinterestShareButton
-              url={shareUrl}
-              media={urljoin(siteUrl, post.frontmatter.cover.publicURL)}
-            >
-              <IoLogoPinterest />
-            </PinterestShareButton>
-            <RedditShareButton
-              url={shareUrl}
-              title={`${post.frontmatter.title}`}
-            >
-              <IoLogoReddit />
-            </RedditShareButton>
           </PostShare>
         </BlogPostFooter>
         <BlogPostComment
