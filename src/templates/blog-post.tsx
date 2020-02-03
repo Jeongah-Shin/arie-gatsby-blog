@@ -80,11 +80,11 @@ const BlogPostTemplate = (props: any) => {
             </TwitterShareButton>
           </PostShare>
         </BlogPostFooter>
-        <BlogPostComment
-          className={post.frontmatter.cover == null ? "center" : ""}
-        >
-          <DiscussionEmbed {...disqusConfig} />
-        </BlogPostComment>
+        {/*<BlogPostComment*/}
+        {/*  className={post.frontmatter.cover == null ? "center" : ""}*/}
+        {/*>*/}
+        {/*  <DiscussionEmbed {...disqusConfig} />*/}
+        {/*</BlogPostComment>*/}
       </BlogPostDetailsWrapper>
 
       {edges.length !== 0 && (
