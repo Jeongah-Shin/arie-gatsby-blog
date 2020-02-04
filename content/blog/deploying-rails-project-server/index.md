@@ -6,6 +6,8 @@ description: ''
 cover: ''
 ---
 
+> 해당 글은 2018년 10월에 작성된 글 입니다. 🙏
+
 ## 0. AWS에서 서버 생성
 
 AWS EC2나 Lightsail을 이용한 서버를 생성한다.
