@@ -1,5 +1,5 @@
 ---
-title: Polyfill 적용 방법에 대한 고민
+title: 객체와 변경불가성(Immutability)
 date: '2020-02-04'
 tags: ['javascript', 'es6', 'immutable']
 description: ''
