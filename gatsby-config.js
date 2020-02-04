@@ -8,7 +8,7 @@ module.exports = {
     author: `동그래`,
     about: `기획에 한계를 주지 않는 개발자 입니다. 현재는 동글동글 잘 굴러가는 웹 프론트를 만들고 있습니다.`,
     description: `수줍은 개발자 동그래의 개발 블로그입니다.`,
-    siteUrl: `https://storyhub-minimal-tarex.redq.now.sh`,
+    siteUrl: `https://shylog.com`,
   },
   plugins: [
     {
@@ -16,6 +16,36 @@ module.exports = {
       options: {
         minify: false, // Breaks styles if not set to false
       },
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+      },
+      query: `
+        {
+          site {
+            siteMetadata {
+              siteUrl
+            }
+          }
+
+          allSitePage {
+            edges {
+              node {
+                path
+              }
+            }
+          }
+      }`,
+      serialize: ({ site, allSitePage }) =>
+        allSitePage.edges.map(edge => {
+          return {
+            url: site.siteMetadata.siteUrl + edge.node.path,
+            changefreq: `daily`,
+            priority: 0.7,
+          }
+        })
     },
     {
       resolve: `gatsby-source-filesystem`,
