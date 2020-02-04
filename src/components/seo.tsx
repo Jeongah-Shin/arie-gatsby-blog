@@ -46,6 +46,10 @@ const SEO: React.FunctionComponent<SEOProps> = ({
           content: metaDescription,
         },
         {
+          name: 'google-site-verification',
+          content: 'lV1dh41W1XHmTzJEr5czWbrRk5ARFhgpINCCg0-Wo00'
+        },
+        {
           property: `og:title`,
           content: `${title} | shylog`,
         },
