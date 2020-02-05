@@ -122,11 +122,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `StoryHub - Personal Blog Minimal`,
-        short_name: `StoryHub`,
+        name: `샤이로그 - 수줍은 개발자 동그래`,
+        short_name: `샤이로그`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#ff176a`,
         display: `minimal-ui`,
         icon: `content/assets/favicon.png`,
       },
