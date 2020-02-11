@@ -146,6 +146,7 @@ export const PostDateAndPreview = styled.div`
     margin-right: 25px;
   }
   @media (max-width: 575px) {
+    margin-right: 0;
     height: auto;
     width: auto;
   }

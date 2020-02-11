@@ -10,7 +10,7 @@ cover: './preview.jpg'
 
 폴리필을 어떤 식으로 적용하는 게 효율적일지 몇 가지 방식을 고민해보았다.
 
-## 방법 1: Dyanmic imports
+## 방법 1: Dynamic imports
 
 Dynamic imports를 사용하여 타겟 브라우저에 특정 기능이 구현되어있지 않을 경우에만 폴리필을 불러오도록 할 수 있다.
 
