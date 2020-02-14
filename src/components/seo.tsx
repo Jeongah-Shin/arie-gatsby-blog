@@ -38,8 +38,8 @@ const SEO: React.FunctionComponent<SEOProps> = ({
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={`%s | shylog`}
+      title={`${title} | 수줍은 동그래 블로그`}
+      titleTemplate={`%s | 수줍은 동그래 블로그`}
       meta={[
         {
           name: `description`,
@@ -51,7 +51,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         },
         {
           property: `og:title`,
-          content: `${title} | shylog`,
+          content: `${title} | 수줍은 동그래 블로그`,
         },
         {
           property: `og:description`,
@@ -75,7 +75,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         },
         {
           name: `twitter:title`,
-          content: `${title} | shylog`,
+          content: `${title} | 수줍은 동그래 블로그`,
         },
         {
           name: `twitter:description`,
@@ -98,7 +98,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
 SEO.defaultProps = {
   lang: `ko`,
   meta: [],
-  keywords: ['shylog', 'frontend', 'eastroots', 'eastroots92', 'react', '이동근', 'develop', 'web', 'javascript', 'typescript'],
+  keywords: ['shylog', '기술블로그', '수줍은개발자', '샤이로그', '동그래블로그','수줍은개발자 동그래','frontend', 'eastroots', 'eastroots92', 'react', '이동근', 'develop', 'web', 'javascript', 'typescript'],
   description: `수줍은 개발자 동그래의 블로그 입니다.`,
 }
 
