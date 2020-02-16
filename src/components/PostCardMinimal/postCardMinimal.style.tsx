@@ -4,10 +4,10 @@ import { themeGet } from "styled-system"
 export const PostCardWrapper = styled.div`
   position: relative;
   &:hover {
-    .post_preview {
+    .post_date {
       transform: translateY(0);
     }
-    .post_date {
+    .post_preview {
       transform: translateY(100%);
     }
   }
@@ -19,8 +19,7 @@ export const PostPreview = styled.div`
   height: 100%;
   top: 0;
   left: 0;
-  transform: translateY(-100%);
-  transition: 0.35s ease-in-out;
+  transition: 0.4s ease-in-out;
   img {
     border-radius: 3px;
   }
