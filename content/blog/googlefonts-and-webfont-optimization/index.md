@@ -1,6 +1,6 @@
 ---
 title: 구글폰트와 웹폰트 최적화
-date: '2020-04-16'
+date: '2020-02-16'
 tags: ['webfont', 'googlefonts', 'ie']
 description: ''
 cover: './preview.jpg'
