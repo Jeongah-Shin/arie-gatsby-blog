@@ -9,6 +9,10 @@ export const PostCardWrapper = styled.div`
     }
     .post_preview {
       transform: translateY(100%);
+      
+      @media (max-width: 575px) {
+        transform: translateY(0);
+      }
     }
   }
 `
@@ -19,7 +23,8 @@ export const PostPreview = styled.div`
   height: 100%;
   top: 0;
   left: 0;
-  transition: 0.4s ease-in-out;
+  transform: translateY(0);
+  transition: 0.4s ease;
   img {
     border-radius: 3px;
   }
@@ -54,7 +59,7 @@ export const PostDate = styled.div`
   align-items: center;
   justify-content: center;
   color: ${themeGet("colors.textColor", "#292929")};
-  transition: 0.35s ease-in-out;
+  transition: 0.4s ease;
   @media (max-width: 1200px) {
     font-size: 70px;
   }
