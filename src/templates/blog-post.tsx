@@ -36,7 +36,7 @@ const BlogPostTemplate = (props: any) => {
   const shareUrl = urljoin(siteUrl, slug)
 
   const disqusConfig = {
-    shortname: process.env.DISQUS_NAME,
+    shortname: 'shylog',
     config: { identifier: slug, title },
   }
   return (
@@ -81,7 +81,7 @@ const BlogPostTemplate = (props: any) => {
           </PostShare>
         </BlogPostFooter>
         <BlogPostComment
-          className={post.frontmatter.cover == null ? "center" : ""}
+          className={"center"}
         >
           <DiscussionEmbed {...disqusConfig} />
         </BlogPostComment>
