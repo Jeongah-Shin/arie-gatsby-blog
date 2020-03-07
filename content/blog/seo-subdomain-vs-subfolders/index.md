@@ -100,3 +100,14 @@ cover: './preview.jpg'
 
 
 다음번에는 SEO 작업과 관련된 이야기를 해보려고 한다. 
+
+
+
+
+
+### 참고자료
+
+- [subdomains-vs-subfolders-seo](https://www.searchenginejournal.com/subdomains-vs-subfolders-seo/239795/#close)
+
+- [subdomains-vs-subdirectories-best-practices-workers-part](https://blog.cloudflare.com/subdomains-vs-subdirectories-best-practices-workers-part-1/)
+
