@@ -100,7 +100,7 @@ export const PostDescriptionWrapper = styled.div`
   margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
-  width: 870px;
+  width: 720px;
   max-width: 100%;
   @media (max-width: 1200px) {
     margin-top: 70px;

@@ -44,6 +44,7 @@ const BlogPostTemplate = (props: any) => {
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
+        cover={urljoin(siteUrl, post.frontmatter.cover.publicURL)}
       />
       <BlogPostDetailsWrapper>
         <PostDetails

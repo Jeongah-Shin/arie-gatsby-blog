@@ -10,10 +10,10 @@ export const BlogPostsWrapper = styled.div`
     width: 900px;
   }
   @media (min-width: 1200px) {
-    width: 1050px;
+    width: 920px;
   }
   @media (min-width: 1400px) {
-    width: 1170px;
+    width: 960px;
   }
   @media (max-width: 990px) {
     padding: 80px 45px 0 45px;
@@ -215,7 +215,7 @@ export const TagName = styled.h1`
   }
 `
 export const BlogPostFooter = styled.div`
-  margin: 0 0 0 auto;
+  margin: 0 auto;
   width: 58%;
   max-width: 100%;
   padding-top: 60px;

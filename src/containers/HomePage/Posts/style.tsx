@@ -17,10 +17,10 @@ const BlogPostsWrapper = styled.div`
     width: 900px;
   }
   @media (min-width: 1200px) {
-    width: 1050px;
+    width: 920px;
   }
   @media (min-width: 1400px) {
-    width: 1170px;
+    width: 960px;
   }
   @media (max-width: 990px) {
     padding: 0 45px 0 45px;

@@ -8,6 +8,7 @@ type SEOProps = {
   meta?: any
   keywords?: any
   title: string
+  cover?: string,
 }
 
 const SEO: React.FunctionComponent<SEOProps> = ({
@@ -16,6 +17,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
   meta,
   keywords,
   title,
+  cover = "https://user-images.githubusercontent.com/26288794/73645628-ffeffa00-46ba-11ea-9b84-a2f2400c5afb.png"
 }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -39,7 +41,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         lang,
       }}
       title={`${title} | 수줍은 동그래 블로그`}
-      titleTemplate={`%s | 수줍은 동그래 블로그`}
+      // titleTemplate={`%s | 수줍은 동그래 블로그`}
       meta={[
         {
           name: `description`,
@@ -59,7 +61,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         },
         {
           property: `og:image`,
-          content: "https://user-images.githubusercontent.com/26288794/73645628-ffeffa00-46ba-11ea-9b84-a2f2400c5afb.png",
+          content: cover,
         },
         {
           property: `og:type`,
