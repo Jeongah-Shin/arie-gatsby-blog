@@ -1,4 +1,4 @@
-import React from 'react';
+  import React from 'react';
 import ButtonStyle from './Button.style';
 
 type ButtonProps = {
