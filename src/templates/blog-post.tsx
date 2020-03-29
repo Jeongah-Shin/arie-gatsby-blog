@@ -34,6 +34,7 @@ const BlogPostTemplate = (props: any) => {
   const slug = post.fields.slug
   const siteUrl = props.data.site.siteMetadata.siteUrl
   const shareUrl = urljoin(siteUrl, slug)
+  const tags = post.frontmatter.tags
 
   const disqusConfig = {
     shortname: 'shylog',
@@ -42,9 +43,10 @@ const BlogPostTemplate = (props: any) => {
   return (
     <Layout>
       <SEO
-        title={post.frontmatter.title}
+        title={`${post.frontmatter.title}  | 수줍은 동그래 블로그`}
         description={post.frontmatter.description || post.excerpt}
         cover={urljoin(siteUrl, post.frontmatter.cover.publicURL)}
+        keywords={tags}
       />
       <BlogPostDetailsWrapper>
         <PostDetails

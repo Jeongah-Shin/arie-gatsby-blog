@@ -99,7 +99,7 @@ cover: './preview.jpg'
 실제 선택을 한 후, SEO 키워드 작업에 꽤 신경을 많이 썻고. 현재는 의도한 검색어들을 입력 하였을 때 최 상단에 노출되고 있다 🎉🎉🎉 (배포 후 1주일 정도 걸렸던 것 같다.)
 
 
-다음번에는 SEO 작업과 관련된 이야기를 해보려고 한다. 
+[검색엔진최적화 Best Practices 궁금하다면?](https://shylog.com/seo-best-practices/)
 
 
 

@@ -20,7 +20,7 @@ const BlogList = (props: any) => {
 
   return (
     <Layout>
-      <SEO title={`Page ${currentPage}`} />
+      <SEO title={`${currentPage}번째 페이지 | 수줍은 동그래 블로그`} />
 
       <BlogPostsWrapper>
         {Posts.map(({ node }: any) => {

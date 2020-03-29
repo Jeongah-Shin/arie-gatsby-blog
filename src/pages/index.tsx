@@ -10,7 +10,7 @@ const PersonalBlogPage = (props: any) => {
   return (
     <Layout>
       <SEO
-        title="블로그"
+        title="블로그 | 수줍은 동그래 블로그"
         description={data.site.siteMetadata.description}
       />
       <PersonalBlog />

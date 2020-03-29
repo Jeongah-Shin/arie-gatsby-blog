@@ -1,5 +1,5 @@
 ---
-title: 검색엔진최적화(SEO)이것만 따라해도 SEO 100점! (SEO Best Practices)
+title: 검색엔진최적화(SEO) Best Practices, 이것만 따라해도 SEO 100점!
 date: '2020-03-28'
 tags: ['seo', 'Best Practices', '검색엔진최적화', '검색마케팅', '마케팅']
 description: ''
@@ -8,7 +8,7 @@ cover: './preview.jpeg'
 
 
 
-# 검색엔진최적화(SEO) 이것만 따라해도 SEO 100점! (SEO Best Practices)
+# 검색엔진최적화(SEO) Best Practices, 이것만 따라해도 SEO 100점!
 
 SEO는 search engine optimizationd의 줄임말로 검색엔진 최적화 라고 합니다. 구글과 네이버와 같은 검색엔진이 이해하기 쉽도록 홈페이지의 구조를 작성하여 검색 결과 상위에 노출될 수 있게 하는 작업 입니다.
 

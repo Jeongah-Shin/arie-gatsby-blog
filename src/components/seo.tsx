@@ -33,6 +33,9 @@ const SEO: React.FunctionComponent<SEOProps> = ({
     `
   )
 
+  const KEYWORDS_SET = ['shylog', '기술블로그', '수줍은개발자', '샤이로그', '동그래블로그','수줍은개발자 동그래','frontend', 'eastroots', 'eastroots92', 'react', '이동근', 'develop', 'web', 'javascript', 'typescript'];
+  const currentKeywords = [...keywords, ...KEYWORDS_SET]
+
   const metaDescription = description || site.siteMetadata.description
 
   return (
@@ -40,8 +43,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
       htmlAttributes={{
         lang,
       }}
-      title={`${title} | 수줍은 동그래 블로그`}
-      // titleTemplate={`%s | 수줍은 동그래 블로그`}
+      title={title}
       meta={[
         {
           name: `description`,
@@ -53,7 +55,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         },
         {
           property: `og:title`,
-          content: `${title} | 수줍은 동그래 블로그`,
+          content: `${title}`,
         },
         {
           property: `og:description`,
@@ -69,7 +71,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -77,22 +79,16 @@ const SEO: React.FunctionComponent<SEOProps> = ({
         },
         {
           name: `twitter:title`,
-          content: `${title} | 수줍은 동그래 블로그`,
+          content: `${title}`,
         },
         {
           name: `twitter:description`,
           content: metaDescription,
         },
-      ]
-        .concat(
-          keywords.length > 0
-            ? {
-                name: `keywords`,
-                content: keywords.join(`, `),
-              }
-            : []
-        )
-        .concat(meta)}
+      ].concat({
+        name: 'keywords',
+        content: currentKeywords.join(', '),
+      })}
     />
   )
 }
@@ -100,7 +96,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
 SEO.defaultProps = {
   lang: `ko`,
   meta: [],
-  keywords: ['shylog', '기술블로그', '수줍은개발자', '샤이로그', '동그래블로그','수줍은개발자 동그래','frontend', 'eastroots', 'eastroots92', 'react', '이동근', 'develop', 'web', 'javascript', 'typescript'],
+  keywords: [],
   description: `수줍은 개발자 동그래의 블로그 입니다.`,
 }
 
