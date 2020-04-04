@@ -63,19 +63,18 @@ const About: React.FunctionComponent<AboutProps> = props => {
   return (
     <AboutWrapper>
       <AboutPageTitle>
-        <h2>🙌, 동그래입니다.</h2>
+        <h2>생각하는 개발자 <b>정아리🐥</b>입니다.</h2>
         <p>
-          기획에 한계를 주지 않는 개발자 이동근입니다. 기획에 세세한 부분을 사용자 관점에서 채워나가는 것을 좋아합니다.
-          주어진 환경에서 가장 최상의 퍼포먼스와 임팩트를 주기 위해 최선을 다하고 있습니다.
-          <br />
-          지금은 동글동글 잘 굴러가는 웹 프론트 개발을 하고 있습니다. 🌝
+        모바일 머신러닝 기술에 열정을 가지고, 경량화 딥러닝 모델을 개발합니다.하드웨어 친화적인 알고리즘을 설계하기 위해 실제 플랫폼에서의 모델 성능 측정과 지표 트래킹을 생활화 합니다.
+        <br />
+        AI 기술이 더 다양한 사용자층을 만날 수 있도록 하는 최적화 과정을 즐깁니다 🤳
         </p>
       </AboutPageTitle>
       {/*<AboutImage>*/}
       {/*  <Image fluid={Data.avatar.childImageSharp.fluid} alt="author" />*/}
       {/*</AboutImage>*/}
       <AboutDetails>
-        <h2>회사경력</h2>
+        {/* <h2>회사경력</h2>
         <div>
           <h3>
             <a href="https://banksalad.com/">
@@ -107,7 +106,7 @@ const About: React.FunctionComponent<AboutProps> = props => {
           <li>멋쟁이 사자처럼 (2015 ~ 2017)</li>
           <li>한국 장학재단 대학생 홍보대사 (2016)</li>
           <li>문화기획단 아웃테이블 (2015)</li>
-        </div>
+        </div> */}
         <SocialProfiles>
           <SocialProfile items={SocialLinks} />
         </SocialProfiles>

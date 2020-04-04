@@ -21,22 +21,22 @@ type IntroProps = {}
 const SocialLinks = [
   {
     icon: <IoLogoGithub />,
-    url: "https://github.com/eastroots92",
+    url: "https://github.com/Jeongah-Shin",
     tooltip: "Github",
   },
   {
     icon: <IoLogoLinkedin />,
-    url: "https://www.linkedin.com/in/donggeun-lee-568916160/",
+    url: "/",
     tooltip: "Linkedin",
   },
   {
     icon: <IoLogoInstagram />,
-    url: "https://www.instagram.com/eastroots92/",
+    url: "https://www.instagram.com/jeong._.arieee/",
     tooltip: "Instagram",
   },
   {
     icon: <IoLogoFacebook />,
-    url: "https://www.facebook.com/guregure13",
+    url: "https://www.facebook.com/jeongah.shin.58",
     tooltip: "Facebook",
   },
 ]
@@ -70,13 +70,12 @@ const Intro: React.FunctionComponent<IntroProps> = () => {
       </IntroImage>
       <IntroInfo>
         <IntroTitle>
-          안녕하세요 🙌 <b>{author}</b>입니다.
+          생각하는 개발자 <b>{author}🐥</b>입니다.
         </IntroTitle>
         <Desciption>
-          기획에 한계를 주지 않는 개발자 이동근입니다. 기획에 세세한 부분을 사용자 관점에서 채워나가는 것을 좋아합니다.
-          주어진 환경에서 가장 최상의 퍼포먼스와 임팩트를 주기 위해 최선을 다하고 있습니다.
-          <br />
-          지금은 동글동글 잘 굴러가는 웹 프론트 개발을 하고 있습니다. 🌝
+        모바일 머신러닝 기술에 열정을 가지고, 경량화 딥러닝 모델을 개발합니다.하드웨어 친화적인 알고리즘을 설계하기 위해 실제 플랫폼에서의 모델 성능 측정과 지표 트래킹을 생활화 합니다.
+        <br />
+        AI 기술이 더 다양한 사용자층을 만날 수 있도록 하는 최적화 과정을 즐깁니다.
         </Desciption>
         <SocialProfile items={SocialLinks} />
       </IntroInfo>

@@ -33,7 +33,7 @@ const SEO: React.FunctionComponent<SEOProps> = ({
     `
   )
 
-  const KEYWORDS_SET = ['shylog', '기술블로그', '수줍은개발자', '샤이로그', '동그래블로그','수줍은개발자 동그래','frontend', 'eastroots', 'eastroots92', 'react', '이동근', 'develop', 'web', 'javascript', 'typescript'];
+  const KEYWORDS_SET = ['On-device ML', 'Mobile ML', 'Lightweight', 'Deep learning', '딥러닝','모바일 머신러닝', '모바일', 'Computer Vision', '컴퓨터 비전', '신정아', '정아리'];
   const currentKeywords = [...keywords, ...KEYWORDS_SET]
 
   const metaDescription = description || site.siteMetadata.description

@@ -11,7 +11,7 @@ const Tags = ({ pageContext, data }: any) => {
 
   return (
     <Layout>
-      <SEO title={`${tag}와 관련된 글 | 수줍은 동그래 블로그`} description={`수줍은 동그래 블로그에 ${tag}키워드로 존재하는 글은 모두 ${totalCount}개 입니다.`} />
+      <SEO title={`${tag}와 관련된 글 | 땅끝까지 파헤치는 모바일 머신러닝`} description={`정아리의 땅끝까지 파헤치는 모바일 머신러닝에 ${tag}키워드로 존재하는 글은 모두 ${totalCount}개 입니다.`} />
 
       <TagPostsWrapper>
         <TagPageHeading>

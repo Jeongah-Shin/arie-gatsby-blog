@@ -4,11 +4,11 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `shylog`,
-    author: `동그래`,
-    about: `기획에 한계를 주지 않는 개발자 입니다. 현재는 동글동글 잘 굴러가는 웹 프론트를 만들고 있습니다.`,
-    description: `수줍은 개발자 동그래의 개발 블로그입니다.`,
-    siteUrl: `https://shylog.com`,
+    title: `arie.ai`,
+    author: `정아리`,
+    about: `모바일 머신러닝 기술에 열정을 가지고, 경량화 딥러닝 모델을 개발합니다.하드웨어 친화적인 알고리즘을 설계하기 위해 실제 플랫폼에서의 모델 성능 측정과 지표 트래킹을 생활화 합니다.`,
+    description: `땅끝까지 파헤치는 모바일 머신러닝, 정아리의 개발 블로그입니다.`,
+    siteUrl: `https://jeongari.com`,
   },
   plugins: [
     {
@@ -113,7 +113,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: `UA-157600471-1`,
+        trackingId: `UA-162793026-1`,
       },
     },
     {
