@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'jeongahri'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_32b140676d7a4e2faac6f22f3db58082 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a5a2ca4e151446ad9564c987024c24e2 }}
         package: .
