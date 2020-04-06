@@ -17,7 +17,7 @@ const ScrollUpButtonWrapper = styled.div`
     display: none;
   }
   &:hover {
-    background-color: ${themeGet("colors.primary", "#ff176a")};
+    background-color: ${themeGet("colors.primary", "#4C241D")};
   }
 `
 
